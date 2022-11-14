@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mobile.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <script src="main.js">
+        </script>
+        <button id="ham" onclick="ham()"><i class="fa fa-navicon"></i></button>
+        <div class="header" id="header">
+        <div class="myself" id="myself">
+            <button id="close" onclick="exit2()"><i class="fa fa-close"></i></button>
+            <img src="prof.jpg" id="profile-pic" class="profile-pic">
+            <button id="upload-img" class="upload-img">Upload</button>
+        </div>
+            <div id="users" class="users">
+                <button id="close" onclick="exit()"><i class="fa fa-close"></i></button>
+                <section class="user" id="user"><img src="prof.jpg" id="users-profile"><b>User</b></section>
+                <section class="user" id="user"><img src="prof.jpg" id="users-profile"><b>User</b></section>
+                <section class="user" id="user"><img src="prof.jpg" id="users-profile"><b>User</b></section>
+                <section class="user" id="user"><img src="prof.jpg" id="users-profile"><b>User</b></section>
+            </div>
+            <div id="archive" class="archive">
+                <button id="close" onclick="exit1()"><i class="fa fa-close"></i></button>
+                <a href="" class="date" id="date"><b>20-03-2897</b></a>
+                <a href="" class="date" id="date"><b>21-03-2897</b></a>
+                <a href="" class="date" id="date"><b>22-03-2897</b></a>
+                
+            </div>
+
+            <section class="space"></section>
+            <button class="option" id="profile" onclick="myself()"><i class="fa fa-user-circle-o"></i><b>Profile</b></button>
+            <button class="option" id="people" onclick="users()"><i class="fa fa-users" ></i><b>People</b></button>
+            <button class="option" id="archive" onclick="archive()"><i class="fa fa-archive"></i><b>Previous Chats</b></button>
+            <button class="option" id="donate"><i class="fa fa-money"></i><b>Donate</b></button>
+            <button class="option" id="logout"><i class="fa fa-sign-out"></i><b>Logout</b></button>
+        </div>
+        
+        <div id="message1">
+            
+            <div id="usermsg">
+                <span><img id="profimg"src="prof.jpg" alt=""><c id="name-user" class="name-user">Belfin</c></span>
+                <div class="message">
+                    lorem ipsum hvjkehbvke dqehdbq edouqhdjqn edq dvuoqdh qj doqhdbq d
+                </div>
+                <button id="like"  onclick="like()"><i class="fa fa-heart"></i></button>
+                <button id="delete"><i class="fa fa-trash"></i></button>
+                
+                
+            </div>
+            <div id="pblcmsg">
+                <span><img id="profimg"src="prof.jpg" alt=""><c id="name-users" class="name-user">name</c></span>
+                <div class="message">
+                    lorem ipsum hvjkehbvke dqehdbq edouqhdjqn edq dvuoqdh qj doqhdbq d
+                </div>
+                <button id="like" onclick="like()"><i class="fa fa-heart"></i></button>
+                <button id="delete"><i class="fa fa-trash"></i></button>
+
+            </div>
+            <div id="usermsg">
+                <span><img id="profimg"src="prof.jpg" alt=""><c id="name-user" class="name-user">Belfin</c></span>
+                <div class="message">
+                    lorem ipsum hvjkehbvke dqehdbq edouqhdjqn edq dvuoqdh qj doqhdbq d
+                </div>
+                <button id="like"  onclick="like()"><i class="fa fa-heart"></i></button>
+                <button id="delete"><i class="fa fa-trash"></i></button>
+                
+                
+            </div>
+            <div id="pblcmsg">
+                <span><img id="profimg"src="prof.jpg" alt=""><c id="name-users" class="name-user">name</c></span>
+                <div class="message">
+                    lorem ipsum hvjkehbvke dqehdbq edouqhdjqn edq dvuoqdh qj doqhdbq d
+                </div>
+                <button id="like" onclick="like()"><i class="fa fa-heart"></i></button>
+                <button id="delete"><i class="fa fa-trash"></i></button>
+
+            </div>
+            <div id="usermsg">
+                <span><img id="profimg"src="prof.jpg" alt=""><c id="name-user" class="name-user">Belfin</c></span>
+                <div class="message">
+                    lorem ipsum hvjkehbvke dqehdbq edouqhdjqn edq dvuoqdh qj doqhdbq d
+                </div>
+                <button id="like"  onclick="like()"><i class="fa fa-heart"></i></button>
+                <button id="delete"><i class="fa fa-trash"></i></button>
+                
+                
+            </div>
+            <div id="pblcmsg">
+                <span><img id="profimg"src="prof.jpg" alt=""><c id="name-users" class="name-user">name</c></span>
+                <div class="message">
+                    lorem ipsum hvjkehbvke dqehdbq edouqhdjqn edq dvuoqdh qj doqhdbq d
+                </div>
+                <button id="like" onclick="like()"><i class="fa fa-heart"></i></button>
+                <button id="delete"><i class="fa fa-trash"></i></button>
+
+            </div>
+            <button id="scroll" class="scroll"><i class="fa fa-sort-down"></i></button>
+        </div>
+        <form>
+            <button id="upload"><i class="fa fa-paperclip"></i></button>
+            <input type="text" id="text" placeholder="Type Message here">
+            <button id="send"><i class="fa fa-send"></i></button>
+        </form>
+        
+    </body>
+</html>
